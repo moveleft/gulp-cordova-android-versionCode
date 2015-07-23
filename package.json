@@ -1,0 +1,35 @@
+{
+  "name": "gulp-cordova-android-versionCode",
+  "version": "0.0.1",
+  "description": "Sets the android versionCode in the config.xml of the cordova project.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/terkill/gulp-cordova-android-versionCode.git"
+  },
+  "keywords": [
+    "gulp",
+    "gulpjs",
+    "cordova",
+    "version",
+    "versionCode",
+    "config"
+  ],
+  "author": {
+    "name": "Sam Verschueren",
+    "email": "sam.verschueren@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/terkill/gulp-cordova-android-versionCode/issues"
+  },
+  "homepage": "https://github.com/terkill/gulp-android-cordova-versionCode",
+  "dependencies": {
+    "cordova-config": "git://github.com/terkill/cordova-config.git#master",
+    "gulp-util": "^3.0.4",
+    "through2": "^0.6.5"
+  }
+}
